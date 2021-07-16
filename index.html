@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RecordRTC</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="js/RecordRTC.js"></script>
+    <script src="js/gif-recorder.js"></script>
+    <script src="js/getScreenId.js"></script>
+    <script src="js/DetectRTC.js"></script>
+    <script src="js/adapter-latest.js"></script>
+</head>
+
+<body>
+    <section class="experiment recordrtc">
+        <h2 class="header">
+            <select class="recording-media">
+                <option value="record-audio" selected>Audio</option>
+            </select>
+            <select class="media-container-format">
+                <option selected>Ogg</option>
+            </select>
+            <button>Start Recording</button>
+        </h2>
+        <div style="text-align: center; display: none;">
+            <button id="upload-to-server">Upload To Server</button>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
